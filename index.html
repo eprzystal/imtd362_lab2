@@ -13,29 +13,40 @@
     <h1>Win an All-Inclusive Vacation to Italy!</h1>
   </header>
     <h2>Enter here for your chance to win an all-inclusive trip to the Tuscany hillsides of Italy.</h2>
-
   <form action="#null" method="post" autocomplete="on">
+    <fieldset>
 	<h3>Enter Here:</h3>
-	  <fieldset>
       <div id="wrap">
-	   	<label for "full_name"> Name:</label>
-		<input id="full_name" type="text" name="full_name" placeholder="Full Name">
-      <div><label for "email_address">Email Address:</label>
-		<input id="email_address" type="email" name="email_address" placeholder="Email Address"></div>
-      <div><label for "phone_number">Phone Number:</label>
-		<input id="phone_number" type="text" name="phone_number" placeholder="773-588-2300"></div>
-      <div><label for="birthday">Date of Birth:</label>
-	  <input id="birthday" type="date" name="birthday"></div>
-    </div>
+	    <ul>
+		  <li>  <!--needed to reference classmate Daniel Tiberi because I couldn't get my validator working, saw that I should not have used <div> instead used <li> -->
+		    <label for "full_name"> Name:</label>
+			<input id="full_name" type="text" name="full_name" placeholder="Full Name">
+		  </li>
+		  <li>
+		    <label for "email">Email Address:</label>
+			<input id="email" type="email" name="email" placeholder="Email Address">
+		  </li>
+		  <li>
+			<label for "phone">Phone Number:</label>
+			<input id="phone" type="text" name="phone" placeholder="773-588-2300">
+		  </li>
+		  <li>  
+			<label for="birthday">Date of Birth:</label>
+			<input id="birthday" type="date" name="birthday">
+		  </li>
+		</ul>
+      </div>
+    </fieldset>
   </form>
-</fieldset>
-  <form>
-    <div><input type="submit" value="Submit"></div>
-  </form>
-  <footer id="footer">
   <div>
-    <p>Courtesy of DayDream Travel. &#153; </p>
+    <ul>
+      <li>	  
+        <input type="submit" value="Submit">
+	  </li>
+	</ul>
   </div>
+<footer id="footer">
+  <div>Courtesy of DayDream Travel. &#153;</div>
 </body>
 </html>
 
