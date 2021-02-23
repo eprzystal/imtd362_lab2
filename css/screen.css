@@ -1,0 +1,57 @@
+html {
+	font-family: times new roman;
+	font-size: 16px;
+	text-align: center;
+	background: lightgray;
+}
+
+h1 {
+    font-size: 200%;
+	text-align: center;
+    color: tomato;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+h2  {
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    margin-bottom: .3em;
+}
+
+h3  {
+    font-size: 140%;
+    text-align: center;
+    color: tomato;
+    margin-bottom: .3em;
+}
+
+label  {
+	justify-content: left;
+}
+
+input {
+	margin-bottom: .5em;
+    display: inline-block;
+	text-align: right-side;
+	justify-content: center;
+}
+
+@media screen and (min-width:600px){
+	#wrap  {
+	display: inline-block;
+	font-size: 150%;
+	text-align: center;
+	justify-content: center;
+	}
+    
+	h1  {
+		font-size: 300%;
+	}
+	
+	h3  {
+		font-size: 250%
+	}
+
+}
